@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aqua</title>
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+
+
+        html{
+            overflow-x: hidden;
+        }
+        .free{
+            background-color:lightblue;
+            height:70px;
+        }
+
+        .free p{
+            font-weight: 400;
+        }
+
+        .navigation{
+            background-color: aqua;
+            height:100px;
+        }
+
+        .navigation .navbar-nav .nav-item {
+            margin-right: 10px; /* Adjust the margin to add space between the links */
+            }
+
+        .navigation .navbar-nav .nav-link {
+          line-height: 4;
+
+        }
+        .livestock-bar {
+          display: flex;
+          flex-wrap: wrap; /* Allow wrapping to next line if needed */
+            height: 150px;
+            background-color: #FFFFFF;
+        }
+
+        .livestock-bar a {
+          margin:20px; /* Adjust margin between links */
+            padding-right:20px;
+
+            font:20px poppins ;
+        }
+
+        .fa-user{
+            margin-right:20px;
+        }
+        .fa-cart-shopping{
+            margin-right: 20px;
+        }
+
+     .swiper-container {
+          padding: 0; /* Remove any padding */
+          margin: 0; /* Remove any margin */
+         width:100%;
+         overflow-x: hidden;
+        }
+
+
+        .swiper-slide img {
+          max-height: 400px;
+          width: 100%;
+          object-fit: cover; /* This will ensure the image covers the entire slide */
+          padding: 0; /* Remove any padding */
+          margin: 0; /* Remove any margin */
+        }
+        .content-box {
+          height: 200px;
+            width:400px;
+          background-color: white;
+          margin: 20px 10px; /* top-bottom left-right*/
+            border: 5px solid #f0f0f0;
+            border-radius:25px;
+        }
+        .gray{
+            color:#d0d0d0;
+        }
+
+
+
+    </style>
+    <script src="https://kit.fontawesome.com/54a1d39497.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+ <div class="container-fluid w-100 free d-flex justify-content-center align-items-center">
+     <p>Free Shipping on Qualifying Dry Goods Orders > $59.00 and Livestock over $300.00</p>
+
+     <p class="free-right ml-5 pl-5"> Videos</p>
+
+
+
+ </div>
+
+<div class="container-fluid w-100">
+     <div class="row">
+         <div class="col-12 px-0 navigation">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><img src="aqua.JPG" height="100" width="100" alt="Logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <form class="form-inline my-2 my-lg-0 mx-auto">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search" style="width:400px">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa-regular fa-user"></i>Sign In</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+         </div>
+     </div>
+</div>
+
+<div class="container-fluid w-100">
+  <div class="row">
+    <div class="col-12 px-0">
+      <div class="livestock-bar">
+        <a href="#">Livestock</a>
+        <a href="#">Shop by Brand</a>
+        <a href="#">Food</a>
+        <a href="#">Aquarium & Sumps</a>
+        <a href="#">Care & Maintenance</a>
+        <a href="#">Equipment</a>
+        <a href="#">Filtration & Reactors</a>
+        <a href="#">Lighting</a>
+        <a href="#">Parts & Plumbing</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid w-100 px-0" style="border: 5px solid black;height:410px;">
+  <div class="row">
+    <div class="col-12 ">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="aquariumpic.jpg" class="img-fluid" alt="Image 1">
+          </div>
+          <div class="swiper-slide">
+            <img src="aqua8.jpeg" class="img-fluid" alt="Image 2">
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Navigation Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </div>
+</div>
+ <div class="container-fluid w-100 px-5" style="background-color: lightblue">
+  <div class="row">
+    <div class="col text-center">
+      <div class="content-box">
+          <div class="contain" style="display:flex;height:50px;font: 20px hero sans-serif">
+              <div class="text-box pl-5 pt-2" style="flex:1;">
+                  <span style="color:lightblue"> <h1>6000+</h1> </span>
+
+              </div>
+               <div class="text-box pt-3" style="flex:1;">
+                   <h3 style="padding: 5px;font:20px hero sans-serif"> Products</h3>
+               </div>
+
+
+          </div>
+           <div style="font-size: 20px;font: 20px hero sans-serif">
+                  <p class="ml-3 mt-5 gray">Wide range of products to fulfill all </p>
+                    <p class="text-center gray">reefing needs</p>
+              </div>
+
+      </div>
+
+    </div>
+    <div class="col">
+      <div class="content-box">
+          <div class="mt-5 text-center" style="font: 20px hero sans-serif">
+                <h1><i class="fa-solid fa-headphones pr-3"></i>Personalized</h1>
+          </div>
+          <div style="font-size: 20px">
+                  <p class="text-center gray">Customer support </p>
+
+              </div>
+      </div>
+
+    </div>
+   <div class="col">
+      <div class="content-box">
+          <div class="contain" style="display:flex;height:50px;">
+              <div class="text-box pl-5 pt-2" style="flex:1;">
+                  <span style="color:lightblue"> <h1>5X </h1> </span>
+
+              </div>
+               <div class="text-box pt-4 mr-4" style="flex:1;">
+                   <h5> Reward Points</h5>
+               </div>
+
+
+          </div>
+           <div style="font: 20px hero sans-serif">
+                  <p class="ml-4 mt-5 pl-2 gray text-center">To claim, place your order with a </p>
+                    <p class="text-center gray">logged in account</p>
+              </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+  slidesPerView: 1,
+  spaceBetween: 0,
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+});
+</script>
+</body>
+</html>
